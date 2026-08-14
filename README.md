@@ -16,7 +16,7 @@ The application is composed of four main services:
 1.  **`backend_list/`**: A FastAPI service that provides an endpoint to list all blobs within a specified Azure Blob Storage container.
 2.  **`backend_upload/`**: A FastAPI service that provides an endpoint to upload files directly to a specified Azure Blob Storage container.
 3.  **`frontend/`**: A Streamlit-based single-page application (SPA) that provides a user-friendly interface to both list files and upload new ones via the backend services.
-4.  **`frontend2/`**: A Flask-based web application that serves as an alternative frontend, using Jinja2 templates to interact with the backend services.
+4.  **`frontend2/`**: A Flask-based web application that serves as an alternative frontend, using Jinja2 templates to interact with the backend services. It features a tabbed interface for switching between listing files and uploading files.
 
 ## Key Technologies
 

@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 
 # Configuration for backend URLs
-BACKEND_LIST_URL = "http://172.17.0.2:8001/list-files"
+BACKEND_LIST_URL = "http://172.17.0.4:8001/list-files"
 BACKEND_UPLOAD_URL = "http://172.17.0.3:8002/upload-file"
 
 @app.route("/")
